@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Prj\\C#\\WordToPDF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|c:\\prj\\c#\\wordtopdf\\word2pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|solutionrelative:word2pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|C:\\Prj\\C#\\WordToPDF\\word2pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|solutionrelative:word2pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Word2PDF.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs",
+              "RelativeDocumentMoniker": "Word2PDF.cs",
+              "ToolTip": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Word2PDF.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:08:55.882Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Word2PDF.cs",
+              "DocumentMoniker": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs",
+              "RelativeDocumentMoniker": "Word2PDF.cs",
+              "ToolTip": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs",
+              "RelativeToolTip": "Word2PDF.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAA9wFcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T08:26:33.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
