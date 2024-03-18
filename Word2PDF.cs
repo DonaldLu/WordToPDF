@@ -150,8 +150,11 @@ namespace WordToPDF
         {
             try
             {
-                string[] files = Directory.GetFiles(wordTB.Text, "*.doc");
-                foreach (string file in files)
+                List<string> filePaths = Directory.GetFiles(wordTB.Text, "*.doc").ToList();
+                List<string> docxFiles = Directory.GetFiles(wordTB.Text, "*.docx").ToList();
+                foreach (string docxFile in docxFiles) { filePaths.Add(docxFile); }
+                filePaths = filePaths.OrderBy(x => Path.GetFileName(x)).ToList();
+                foreach (string file in filePaths)
                 {
                     checkedListBox1.Items.Add(Path.GetFileName(file));
                 }
@@ -181,6 +184,8 @@ namespace WordToPDF
                 if (tabControl1.SelectedTab == oneToOne)
                 {
                     List<string> filePaths = Directory.GetFiles(wordPathTB.Text, "*.doc").ToList();
+                    List<string> docxFiles = Directory.GetFiles(wordPathTB.Text, "*.docx").ToList();
+                    foreach(string docxFile in docxFiles){ filePaths.Add(docxFile); }
                     List<string> exportFiles = TransWordToPDF(filePaths, PDFPathTB.Text); // 將Word轉換成PDF檔
                     if (filePaths.Count() > 0) { MessageBox.Show("完成"); }
                     else { MessageBox.Show("沒有可轉換的檔案"); }
