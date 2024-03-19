@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Prj\\C#\\WordToPDF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|c:\\prj\\c#\\wordtopdf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|c:\\prj\\c#\\wordtopdf\\word2pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FA98B5D-49B0-4BA0-A435-8EFD63314DBC}|WordToPDF.csproj|solutionrelative:word2pdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Prj\\C#\\WordToPDF\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Prj\\C#\\WordToPDF\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T06:52:16.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Word2PDF.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs",
               "RelativeDocumentMoniker": "Word2PDF.cs",
@@ -34,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Word2PDF.cs",
               "DocumentMoniker": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs",
               "RelativeDocumentMoniker": "Word2PDF.cs",
               "ToolTip": "C:\\Prj\\C#\\WordToPDF\\Word2PDF.cs",
               "RelativeToolTip": "Word2PDF.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAswJsAAABsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T08:26:33.282Z",
               "EditorCaption": ""

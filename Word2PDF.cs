@@ -22,8 +22,6 @@ namespace WordToPDF
             PDFPathTB.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);//桌面路徑
             wordTB.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);//桌面路徑
             PDFTB.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);//桌面路徑
-            //wordTB.Text = @"C:\Users\Donald\Desktop\Word to PDF\Word";
-            //PDFTB.Text = @"C:\Users\Donald\Desktop\Word to PDF\PDF";
             CenterToParent(); // 置中
         }
         // 彈跳視窗選擇Word資料夾路徑
@@ -137,13 +135,6 @@ namespace WordToPDF
                 }
             }
             doc.Close();
-
-            //// 刪除生成的PDF檔, 只留下合併的
-            //foreach(string exportFile in exportFiles)
-            //{
-            //    try { File.Delete(exportFile); }
-            //    catch (Exception ex) { string error = ex.Message + "\n" + ex.ToString(); }
-            //}
         }
         // 顯示
         private void showBtn_Click(object sender, EventArgs e)
